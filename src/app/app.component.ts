@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+
+  public dockerenv: string;
+
   title = 'angular-env-docker';
+
+  constructor() {
+    this.dockerenv = "ctor"
+  }
+
 }
